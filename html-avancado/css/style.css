@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 10%;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+img.logo {
+    width: 18%;
+    margin-bottom: 18px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+.ajuste-input-text {
+    display: flex;
+    margin: 5px auto;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.button {
+    border: 1px none;    
+    background-color: rgb(0, 123, 255);
+    width: 100%;
+    color: white;
+}
+
+.button:hover {
+    background: rgb(0, 101, 209);;
+    cursor: pointer;
+}
+
+.div-checkbox-label {
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
